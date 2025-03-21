@@ -1,0 +1,43 @@
+version: '3.9'
+
+services:
+  api-projet1:
+    build:
+      context: ./projet_1
+      dockerfile: Dockerfile
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./projet_1:/app
+    networks:
+      - networkName
+
+  api-projet2:
+    build:
+      context: ./projet_2
+      dockerfile: Dockerfile
+    ports:
+      - "8002:8000"
+    volumes:
+      - ./projet_2:/app
+    depends_on:
+      - api-projet1
+    networks:
+      - networkName
+
+  api-projet3:
+    build:
+      context: ./projet_3
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./projet_3:/app
+    depends_on:
+      - api-projet1
+      - api-projet2
+    networks:
+      - networkName
+
+networks:
+  networkName: {}

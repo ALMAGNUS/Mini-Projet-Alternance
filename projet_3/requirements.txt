@@ -1,0 +1,6 @@
+streamlit
+requests
+pytest
+pandas
+altair
+loguru

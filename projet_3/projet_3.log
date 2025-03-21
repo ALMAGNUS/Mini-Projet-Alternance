@@ -1,0 +1,26 @@
+2025-03-17 13:56:57.752 | INFO     | __main__:<module>:56 - log récent pour l'application streamlit
+2025-03-17 13:57:11.685 | ERROR    | modules.orchestrator:get_patient:13 - error getting patient : {e}
+2025-03-17 13:57:11.700 | INFO     | __main__:<module>:56 - log récent pour l'application streamlit
+2025-03-17 13:57:29.032 | INFO     | __main__:<module>:56 - log récent pour l'application streamlit
+2025-03-17 13:57:33.449 | INFO     | __main__:<module>:56 - log récent pour l'application streamlit
+2025-03-17 13:57:35.817 | INFO     | __main__:<module>:56 - log récent pour l'application streamlit
+2025-03-17 13:57:43.644 | ERROR    | modules.orchestrator:predict_charge:35 - error predicting charge : HTTPConnectionPool(host='api-projet2', port=8000): Max retries exceeded with url: /predict/ (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7f31cbce9970>: Failed to resolve 'api-projet2' ([Errno -2] Name or service not known)"))
+2025-03-17 13:57:43.647 | INFO     | __main__:<module>:56 - log récent pour l'application streamlit
+2025-03-17 14:08:09.167 | INFO     | __main__:<module>:56 - log récent pour l'application streamlit
+2025-03-17 14:08:13.089 | INFO     | modules.orchestrator:get_patient:10 - GET patient successful
+2025-03-17 14:08:13.117 | INFO     | __main__:<module>:56 - log récent pour l'application streamlit
+2025-03-17 14:08:45.147 | INFO     | __main__:<module>:56 - log récent pour l'application streamlit
+2025-03-17 14:08:50.716 | INFO     | __main__:<module>:56 - log récent pour l'application streamlit
+2025-03-17 14:08:52.006 | INFO     | __main__:<module>:56 - log récent pour l'application streamlit
+2025-03-17 14:08:57.932 | ERROR    | modules.orchestrator:predict_charge:36 - error predicting charge : HTTPConnectionPool(host='api-projet2', port=8000): Max retries exceeded with url: /predict/ (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fda33eeb910>: Failed to resolve 'api-projet2' ([Errno -2] Name or service not known)"))
+2025-03-17 14:08:57.937 | INFO     | __main__:<module>:56 - log récent pour l'application streamlit
+2025-03-17 14:27:39.671 | INFO     | __main__:<module>:56 - log récent pour l'application streamlit
+2025-03-17 14:27:44.341 | INFO     | modules.orchestrator:get_patient:10 - GET patient successful
+2025-03-17 14:27:44.370 | INFO     | __main__:<module>:56 - log récent pour l'application streamlit
+2025-03-17 14:27:53.835 | INFO     | __main__:<module>:56 - log récent pour l'application streamlit
+2025-03-17 14:27:56.372 | INFO     | __main__:<module>:56 - log récent pour l'application streamlit
+2025-03-17 14:28:01.414 | INFO     | __main__:<module>:56 - log récent pour l'application streamlit
+2025-03-17 14:28:02.035 | INFO     | __main__:<module>:56 - log récent pour l'application streamlit
+2025-03-17 14:28:02.663 | INFO     | __main__:<module>:56 - log récent pour l'application streamlit
+2025-03-17 14:28:04.856 | INFO     | modules.orchestrator:predict_charges:35 - POST predict successful
+2025-03-17 14:28:04.861 | INFO     | __main__:<module>:56 - log récent pour l'application streamlit
